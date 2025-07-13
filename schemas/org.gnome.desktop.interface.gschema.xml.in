@@ -245,7 +245,7 @@
       </description>
     </key>
     <key name="show-battery-percentage" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Show battery percentage</summary>
       <description>
         If true, display battery percentage in the status menu, in addition to the icon.
