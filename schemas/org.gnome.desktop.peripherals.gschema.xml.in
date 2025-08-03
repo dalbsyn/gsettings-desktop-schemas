@@ -11,12 +11,12 @@
   </schema>
   <schema id="org.gnome.desktop.peripherals.touchpad" path="/org/gnome/desktop/peripherals/touchpad/">
     <key name="edge-scrolling-enabled" type="b">
-      <default>true</default>
+      <default>false</default>
       <summary>Whether edge scrolling is enabled</summary>
       <description>When enabled, touchpads that support edge scrolling will have that feature enabled.</description>
     </key>
     <key name="two-finger-scrolling-enabled" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Whether two-finger scrolling is enabled</summary>
       <description>When enabled, touchpads that support two-finger scrolling will have that feature enabled.</description>
     </key>
