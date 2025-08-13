@@ -156,11 +156,7 @@
       </description>
     </key>
     <key name="document-font-name" type="s">
-<<<<<<< HEAD
       <default>'Serif 11'</default>
-=======
-      <default>'Adwaita Sans 12'</default>
->>>>>>> 87022e2 (schemas: Increase document font size to 12)
       <summary>Document font</summary>
       <description>
         Name of the default font used for reading documents.
@@ -279,7 +275,7 @@
       </description>
     </key>
     <key name="font-antialiasing" enum="org.gnome.desktop.GDesktopFontAntialiasingMode">
-      <default>'grayscale'</default>
+      <default>'rgba'</default>
       <summary>Antialiasing</summary>
       <description>
         The type of antialiasing to use when rendering fonts. Possible values are: “none” for no antialiasing, “grayscale” for standard grayscale antialiasing, and “rgba” for subpixel antialiasing (LCD screens only).
