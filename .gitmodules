@@ -1,0 +1,3 @@
+[submodule "gsettings-desktop-schemas"]
+	path = gsettings-desktop-schemas
+	url = git@github.com:dalbsyn/gsettings-pkgbuild.git
