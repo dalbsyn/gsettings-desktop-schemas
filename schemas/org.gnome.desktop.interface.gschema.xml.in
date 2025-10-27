@@ -90,8 +90,9 @@
         Icon theme to use for the panel, nautilus etc.
       </description>
     </key>
+    <!-- Use another GTK theme -->
     <key name="gtk-theme" type="s">
-      <default>'Adwaita'</default>
+      <default>'adw-gtk3-dark'</default>
       <summary>Gtk+ Theme</summary>
       <description>
         Basename of the default theme used by gtk+.
@@ -104,8 +105,9 @@
         Basename of the default keybinding theme used by gtk+.
       </description>
     </key>
+    <!-- Use generic Sans font which set by fontconfig-->
     <key name="font-name" type="s">
-      <default>'Adwaita Sans 11'</default>
+      <default>'Sans 11'</default>
       <summary>Default font</summary>
       <description>
         Name of the default font used by gtk+.
@@ -155,15 +157,17 @@
         Name of the input method module used by GTK+.
       </description>
     </key>
+    <!-- Use generic Sans font which set by fontconfig-->
     <key name="document-font-name" type="s">
-      <default>'Adwaita Sans 12'</default>
+      <default>'Sans 12'</default>
       <summary>Document font</summary>
       <description>
         Name of the default font used for reading documents.
       </description>
     </key>
+    <!-- Use generic Sans font which set by fontconfig -->
     <key name="monospace-font-name" type="s">
-      <default>'Adwaita Mono 11'</default>
+      <default>'Monospace 11'</default>
       <summary>Monospace font</summary>
       <description>
         Name of a monospaced (fixed-width) font for use in locations like
@@ -216,7 +220,7 @@
       </description>
     </key>
     <key name="clock-show-seconds" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Whether the clock shows seconds</summary>
       <description>
 	If true, display seconds in the clock.
@@ -245,7 +249,7 @@
       </description>
     </key>
     <key name="show-battery-percentage" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Show battery percentage</summary>
       <description>
         If true, display battery percentage in the status menu, in addition to the icon.
@@ -268,14 +272,14 @@
       </description>
     </key>
     <key name="locate-pointer" type="b">
-      <default>false</default>
+      <default>true</default>
       <summary>Highlights the current location of the pointer.</summary>
       <description>
         If true, pressing a key will highlight the current pointer location on screen.
       </description>
     </key>
     <key name="font-antialiasing" enum="org.gnome.desktop.GDesktopFontAntialiasingMode">
-      <default>'grayscale'</default>
+      <default>'rgba'</default>
       <summary>Antialiasing</summary>
       <description>
         The type of antialiasing to use when rendering fonts. Possible values are: “none” for no antialiasing, “grayscale” for standard grayscale antialiasing, and “rgba” for subpixel antialiasing (LCD screens only).
@@ -303,7 +307,7 @@
       </description>
     </key>
     <key name="font-rendering" enum="org.gnome.desktop.GDesktopFontRendering">
-      <default>'automatic'</default>
+      <default>'manual'</default>
       <summary>Font rendering</summary>
       <description>
         Preference to indicate whether font rendering should follow the low-level `font-hinting` and `font-antialiasing` and `font-rgba-order` settings, or take environmental factors such as screen resolution and scaling into account.
@@ -312,7 +316,7 @@
       </description>
     </key>
     <key name="accent-color" enum="org.gnome.desktop.GDesktopAccentColor">
-      <default>'blue'</default>
+      <default>'slate'</default>
       <summary>Accent color</summary>
       <description>
         The preferred accent color for the user interface. Valid values are "blue", "teal", "green", "yellow", "orange", "red", "pink", "purple", "slate".
