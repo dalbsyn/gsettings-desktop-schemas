@@ -92,7 +92,7 @@
     </key>
     <!-- Use another GTK theme -->
     <key name="gtk-theme" type="s">
-      <default>'adw-gtk3-dark'</default>
+      <default>'adw-gtk3'</default>
       <summary>Gtk+ Theme</summary>
       <description>
         Basename of the default theme used by gtk+.
@@ -300,7 +300,7 @@
       </description>
     </key>
     <key name="color-scheme" enum="org.gnome.desktop.GDesktopColorScheme">
-      <default>'prefer-dark'</default>
+      <default>'prefer-light'</default>
       <summary>Color scheme</summary>
       <description>
         The preferred color scheme for the user interface. Valid values are “default”, “prefer-dark”, “prefer-light”.
